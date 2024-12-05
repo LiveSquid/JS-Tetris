@@ -1,0 +1,67 @@
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(135deg, #64a7ff, #000dc1cc); /* Nice gradient */
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  /* Center everything vertically */
+    height: 100vh;
+}
+
+.title {
+    font-size: 4rem;  /* Large font size */
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    text-shadow: 3px 3px 10px #ffffff;
+    margin: 20px 0;
+}
+
+.game-content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+    background: #553bff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #ffffff;
+}
+
+/* sde thineg */
+.stats {
+    background: #0011ff99;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #ffffff;
+    font-size: 1.2rem;
+}
+
+.stats p {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.stats span {
+    color: #d51c3b72;
+    font-weight: bold;
+}
+
+
+.tetris {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+canvas {
+    display: block;
+}
+
